@@ -193,7 +193,7 @@ AUTHORIZED / DENIED  ──▶  Google Sheets
 
 ## Auteurs
 
-Projet réalisé dans le cadre du Diplôme Universitaire de Technologie (DUT) à l'**École Supérieure de Technologie de Salé (ESTS)**, sous la supervision du corps enseignant du département 3M.
+Projet réalisé par Oubari Amine et Yabou Hind dans le cadre du Diplôme Universitaire de Technologie (DUT) à l'**École Supérieure de Technologie de Salé (ESTS)**, sous la supervision du corps enseignant du département 3M.
 
 ---
 
