@@ -20,16 +20,16 @@ Ce projet propose un système embarqué de contrôle d'accès combinant la lectu
 │  database_setup.py — Capture, alignement, embedding │
 │  server_cam.py     — Serveur flux vidéo (MJPEG)     │
 └────────────────────────┬────────────────────────────┘
-                         │  HTTP (LAN)
+                         │  HTTP (LAN) - Ethernet Rj45
                          ▼
 ┌─────────────────────────────────────────────────────┐
-│                  Raspberry Pi                        │
+│                  Raspberry Pi                       │
 │  get_file.py      — Réception de la base faces.db   │
 │  verification.py  — Vérification RFID + visage      │
 └────────────────────────┬────────────────────────────┘
                          │  API Google Sheets
                          ▼
-                  Journal des accès (cloud)
+                  Journal des accès (cloud) --- > Google Looker (Dashboard)
 ```
 
 ---
@@ -77,7 +77,7 @@ pip install opencv-python mediapipe onnxruntime numpy flask requests gspread goo
 
 | Fichier | Source |
 |---|---|
-| `w600k_mbf.onnx` | [InsightFace Model Zoo](https://github.com/yakhyo/face-reidentification/releases) |
+| `w600k_mbf.onnx` | [Face reidentification](https://github.com/yakhyo/face-reidentification/releases) |
 | `face_landmarker.task` | [MediaPipe Models](https://developers.google.com/mediapipe/solutions/vision/face_landmarker) |
 
 ### Credentials Google Sheets
